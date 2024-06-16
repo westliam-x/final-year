@@ -12,11 +12,16 @@ import Education from "./admin/education";
 import Users from "./admin/users";
 import UserProfile from "./admin/userProfile";
 import User from "./user/dashboard";
+import Home from "../home";
 // import MedicalAdmin from "./user/registration";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route >
+
+      {/* ROOT */}
+      <Route path="/" element={<Home />} />
+      
       {/* Admin */}
       <Route path="/admin/home" element={<Admin />} />
       <Route path="/admin/medical" element={<AdminMedical />} />
