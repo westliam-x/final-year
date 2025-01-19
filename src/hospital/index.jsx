@@ -24,11 +24,13 @@ return(
 
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-4">Profile</h2>
+            <div className=" rounded-full ">
             <img
-              src="/jpeg/west.jpg"
+              src="/png/babcock.png"
               alt="Profile"
-              className="md:w-96 md:h-96 w-36 h-40 rounded-full mx-auto mb-4"
+              className="rounded-full mx-auto mb-4"
             />
+            </div>
             <h3 className="text-2xl font-bold text-center">William Emelifonwu</h3>
             <h3 
               className="text-lg font-bold text-center cursor-pointer text-blue-500"
