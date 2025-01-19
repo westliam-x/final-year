@@ -119,18 +119,13 @@ const Nav = () => {
             return (
                 <ul className="space-y-10 mt-20">
                     <li>
-                        <Link to="/admin/home" className="block p-2 rounded hover:bg-gray-700">
+                        <Link to="/hospital" className="block p-2 rounded hover:bg-gray-700">
                             Dashboard
                         </Link>
                     </li>
                     <li>
-                        <Link to="/admin/medical" className="block p-2 rounded hover:bg-gray-700">
+                        <Link to="/hospital/records" className="block p-2 rounded hover:bg-gray-700">
                             Medical Records
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/admin/education" className="block p-2 rounded hover:bg-gray-700">
-                            Education Records
                         </Link>
                     </li>
                 </ul>

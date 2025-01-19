@@ -13,6 +13,11 @@ import Users from "./admin/users";
 import UserProfile from "./admin/userProfile";
 import User from "./user/dashboard";
 import Home from "../home";
+import Hospital from "./hospital";
+import HosLogin from "./hospital/login";
+import UserId from "./hospital/userId";
+import MedicalRecords from "./hospital/records";
+import OTP from "./hospital/otp";
 // import MedicalAdmin from "./user/registration";
 
 const router = createBrowserRouter(
@@ -39,6 +44,13 @@ const router = createBrowserRouter(
       <Route path="/user/home" element={<User />} />
       <Route path="/user/registration" element={<Registration />} />
       <Route path="/user/" element={<Userlogin />} />
+
+      {/* Hospital */}
+      <Route path="/hospital" element={<Hospital/>}/>
+      <Route path="/hospital/login" element={<HosLogin/>}/>
+      <Route path="/hospital/records" element={<UserId/>}/>
+      <Route path="/hospital/otp" element={<OTP/>}/>
+      <Route path="/hospital/records/:id" element={<MedicalRecords/>}/>
     </Route>
   )
 )

@@ -26,11 +26,13 @@ const User = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-4">Profile</h2>
+            <div className=" rounded-full ">
             <img
-              src="/jpeg/west.jpg"
+              src="/png/babcock.png"
               alt="Profile"
-              className="md:w-96 md:h-96 w-36 h-40 rounded-full mx-auto mb-4"
+              className="rounded-full mx-auto mb-4"
             />
+            </div>
             <h3 className="text-2xl font-bold text-center">William Emelifonwu</h3>
             <h3 
               className="text-lg font-bold text-center cursor-pointer text-blue-500"
@@ -47,7 +49,7 @@ const User = () => {
             <h3 className="text-xl font-semibold mb-2">Citizen Ids</h3>
             <p><strong>BVN:</strong> 009309209</p>
             <p><strong>NIN:</strong> 2093092093</p>
-            <p> <strong>ALL iDS:</strong> <a href="#"> Summary</a></p>
+            <p> <strong>ALL iDS:</strong> <a href="#"> View All</a></p>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 space-y-4 md:space-y-6">
